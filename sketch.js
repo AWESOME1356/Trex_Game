@@ -41,7 +41,7 @@ function setup() {
   trex = createSprite(50,180,20,50);
   trex.addAnimation("running", trex_running);
   trex.addAnimation("Trex_Collided", trex_collided);
-  trex.scale = 0.7;
+  trex.scale = 0.65;
   
   ground = createSprite(200,180,400,20);
   ground.addImage("ground",groundImage);
@@ -89,7 +89,7 @@ function draw() {
      
      //jump when the space key is pressed
     if(keyDown("space") && trex.y >= 149){
-      trex.velocityY = -15 ;
+      trex.velocityY = -14 ;
     }
   
     //add gravity
