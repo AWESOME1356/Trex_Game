@@ -82,7 +82,7 @@ function draw() {
       ground.x = ground.width/2;
     }
     
-     score = score + Math.round(getFrameRate()/30);
+     score = score + Math.round(getFrameRate()/60);
   
   
   ground.velocityX = -5;
